@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Sunset and Sunrise Dashboard</title>
+</head>
+<body>
+    <header id="logoheader">
+        <a href="index.html">
+        <img src="Images\Sunlogo.png" alt="Your Website Logo">
+        </a>
+        <h1 >Sunset and Sunrise Dashboard</h1>
+    </header>
+    
+    <main >
+        <div id="location-options" >
+            <!-- Geolocation Button for current location -->
+            <button id="geolocationBtn">Use Current Location</button>
+            <input type="text" id="searchLocation" placeholder="Search for a location">
+            <button id="searchLocationBtn">
+            <!-- <input type="image" src="Images\search.png" alt="Search"> -->
+            Search
+        </button>
+        </div>
+        <h1 id="dash" >
+        </h1>
+        <div  >
+            <div id="dashboard" style="width: 50%; float: left;">
+                <!-- Data will be displayed here -->
+            </div>
+
+            <div id="tmr_dashboard" style="width: 50%; float: right;">
+                <!-- Data will be displayed here -->
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <img id="giff" src="https://gifdb.com/images/high/sunrise-ocean-pixel-fxxn1c95tqe1wzbo.gif" alt="Sunrise and Sunset gif image" >
+            <h6>Powered by <a href="https://sunrisesunset.io/">SunriseSunset.io </a></h6>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
